@@ -1,5 +1,5 @@
 This is a cool file.
 
-It contains just a few lines.
+It may contain many or just a few lines.
 
 And now it contains more lines.
