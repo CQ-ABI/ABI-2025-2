@@ -1,3 +1,5 @@
 This is a file.
 
 It contains lines.
+
+And now it contains more lines.
