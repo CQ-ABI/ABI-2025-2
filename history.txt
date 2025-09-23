@@ -1,0 +1,98 @@
+mkdir dir1
+mkdir dir2
+mkdir dir3
+cd dir3/
+ls
+mkdir blub
+mkdir bla
+ls
+cd blub/
+ls
+mkdir AnotherDirectory
+cd AnotherDirectory/
+ls
+cd ..
+cd ..
+ls
+cd ..
+cd dirWithAVeryLongName/
+ls
+touch aFile.txt
+ls
+cat aFile.txt 
+cd ..
+mkdir dir_with_a_very_long_underscored_name
+ls
+cd dir_with_a_very_long_underscored_name/
+ls
+touch another_file.txt
+ls
+vi another_file.txt 
+ls
+vi
+vi another_file.txt 
+echo "Hello there!"
+echo "Hello there!" > hello_file.txt
+ls
+cat hello_file.txt 
+"Hello there!"
+ls
+ls -la
+ls -la > filelist.txt
+ls
+cat filelist.txt 
+echo "Hello there again!" > hello_file.txt
+cat hello_file.txt 
+echo "Hello there!" > hello_file.txt
+cat hello_file.txt 
+echo "Hello there again!" >> hello_file.txt
+echo "And another one!" >> hello_file.txt
+cat hello_file.txt 
+vi
+cd ..
+cd ..
+ls
+cd ABI-2025-2/
+ls
+vi countLines.sh
+chmod ugo+x countLines.sh 
+./countLines.sh mytext.md 
+cat countLines.sh 
+ls -la
+chmod a-x countLines.sh 
+ls -las
+chmod a+x countLines.sh 
+countLines.sh
+echo PATH
+echo $PATH
+pwd
+/home/wojtek/temp/git/ABI-2025-2/countLines.sh mytext.md 
+pwd
+ls
+./countLines.sh countLines.sh 
+cd dirWithAVeryLongName/
+ls
+../countLines.sh ./aFile.txt 
+cd ..
+ls
+./countLines.sh dirWithAVeryLongName/aFile.txt 
+./countLines.sh aFile.txt 
+ls
+cd dir_with_a_very_long_underscored_name/
+ls
+mkdir subdir_with_long_name
+cd subdir_with_long_name/
+ls
+mv ../hello_file.txt .
+ls
+../../countLines.sh ./hello_file.txt 
+cd ..
+../countLines.sh subdir_with_long_name/hello_file.txt 
+cd ..
+./countLines.sh dir_with_a_very_long_underscored_name/subdir_with_long_name/hello_file.txt 
+cd dir
+cd dir1/
+../countLines.sh ../dir_with_a_very_long_underscored_name/subdir_with_long_name/hello_file.txt 
+cd ..
+ls
+history > history.txt
